@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<odoo>
+<template id="receipt_ext_js"  inherit_id="web.assets_backend">
+    <xpath expr="." position="inside">
+        <script type="text/javascript" src="/pos_receipt_arabic/static/src/js/models.js" />
+        <script type="text/javascript" src="/pos_receipt_arabic/static/src/js/pos.js" />
+        <script type="text/javascript" src="/pos_receipt_arabic/static/src/js/qrcode.js" />
+    </xpath>
+</template>
+</odoo>

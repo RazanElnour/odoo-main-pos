@@ -1,0 +1,153 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* pdf_print_preview
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0+e-20200505\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-05 12:26+0000\n"
+"PO-Revision-Date: 2020-05-05 12:26+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: pdf_print_preview
+#: model:ir.model.fields,field_description:pdf_print_preview.field_res_users__automatic_printing
+msgid "Automatic Printing"
+msgstr "直接打印"
+
+#. module: pdf_print_preview
+#: model_terms:ir.ui.view,arch_db:pdf_print_preview.short_preview_print_from
+msgid "Cancel"
+msgstr "取消"
+
+#. module: pdf_print_preview
+#. openerp-web
+#: code:addons/pdf_print_preview/static/src/xml/dialog.xml:0
+#: code:addons/pdf_print_preview/static/src/xml/dialog.xml:0
+#, python-format
+msgid "Close"
+msgstr "关闭"
+
+#. module: pdf_print_preview
+#: model:ir.model,name:pdf_print_preview.model_ir_http
+msgid "HTTP Routing"
+msgstr "HTTP 路由"
+
+#. module: pdf_print_preview
+#. openerp-web
+#: code:addons/pdf_print_preview/static/src/js/pdf_preview.js:0
+#, python-format
+msgid ""
+"Please allow <b style='color: red;'>pop up</b> in your browser to <b>preview"
+" report</> in another tab."
+msgstr ""
+
+#. module: pdf_print_preview
+#. openerp-web
+#: code:addons/pdf_print_preview/static/src/js/dialog.js:0
+#: model_terms:ir.ui.view,arch_db:pdf_print_preview.view_users_preview_print_form
+#, python-format
+msgid "Preview"
+msgstr "预览"
+
+#. module: pdf_print_preview
+#: model:ir.actions.act_window,name:pdf_print_preview.action_short_preview_print
+msgid "Preview Print"
+msgstr "打印预览"
+
+#. module: pdf_print_preview
+#: model:ir.model.fields,field_description:pdf_print_preview.field_res_users__preview_print
+msgid "Preview print"
+msgstr "打印预览"
+
+#. module: pdf_print_preview
+#: model_terms:ir.ui.view,arch_db:pdf_print_preview.view_users_preview_print_form
+msgid "Refresh"
+msgstr "刷新"
+
+#. module: pdf_print_preview
+#. openerp-web
+#: code:addons/pdf_print_preview/static/src/js/pdf_preview.js:0
+#: code:addons/pdf_print_preview/static/src/js/pdf_preview.js:0
+#: code:addons/pdf_print_preview/static/src/js/pdf_preview.js:0
+#: model_terms:ir.ui.view,arch_db:pdf_print_preview.view_users_preview_print_form
+#, python-format
+msgid "Report"
+msgstr "报表"
+
+#. module: pdf_print_preview
+#. openerp-web
+#: code:addons/pdf_print_preview/static/src/xml/user_menu.xml:0
+#, python-format
+msgid "Report preview"
+msgstr "报表预览"
+
+#. module: pdf_print_preview
+#: model_terms:ir.ui.view,arch_db:pdf_print_preview.short_preview_print_from
+msgid "Save"
+msgstr "保存"
+
+#. module: pdf_print_preview
+#. openerp-web
+#: code:addons/pdf_print_preview/static/src/js/pdf_preview.js:0
+#, python-format
+msgid ""
+"Unable to find Wkhtmltopdf on this \n"
+"system. The report will be shown in html.<br><br><a href='http://wkhtmltopdf.org/' target='_blank'>\n"
+"wkhtmltopdf.org</a>"
+msgstr ""
+
+#. module: pdf_print_preview
+#: model:ir.model,name:pdf_print_preview.model_res_users
+#: model_terms:ir.ui.view,arch_db:pdf_print_preview.short_preview_print_from
+msgid "Users"
+msgstr "用户"
+
+#. module: pdf_print_preview
+#. openerp-web
+#: code:addons/pdf_print_preview/static/src/js/pdf_preview.js:0
+#, python-format
+msgid ""
+"You need to start OpenERP with at least two \n"
+"workers to print a pdf version of the reports."
+msgstr ""
+
+#. module: pdf_print_preview
+#. openerp-web
+#: code:addons/pdf_print_preview/static/src/js/pdf_preview.js:0
+#, python-format
+msgid ""
+"You need to update your company details and upload <b "
+"style='color:red;'>your logo</b> to get a beautiful document. <br/> by going"
+" to <b style='color:red;'>Settings</b> and Activate the developer mode and "
+"go to <b style='color:red;'>General Settings</b> and <b "
+"style='color:red;'>Document Template</b>, After that refresh the page."
+msgstr ""
+"在浏览器中预览并打印PDF报告您需要更新公司详细信息并上载<b style='color:red;'>徽标</b>以获得漂亮的文档。<br/> \n"
+"进入<b style='color:red;'>设置</b>并激活开发人员模式，进入<b style='color:red;'>常规设置</b>和<b style='color:red;'>文档模板</b>，然后刷新页面。"
+
+#. module: pdf_print_preview
+#. openerp-web
+#: code:addons/pdf_print_preview/static/src/js/pdf_preview.js:0
+#, python-format
+msgid ""
+"You should upgrade your version of\n"
+"Wkhtmltopdf to at least 0.12.0 in order to get a correct display of headers and footers as well as\n"
+"support for table-breaking between pages.<br><br><a href='http://wkhtmltopdf.org/' \n"
+"target='_blank'>wkhtmltopdf.org</a>"
+msgstr ""
+
+#. module: pdf_print_preview
+#. openerp-web
+#: code:addons/pdf_print_preview/static/src/js/pdf_preview.js:0
+#, python-format
+msgid ""
+"Your installation of Wkhtmltopdf seems to be broken. The report will be "
+"shown in html.<br><br><a href='http://wkhtmltopdf.org/' "
+"target='_blank'>wkhtmltopdf.org</a>"
+msgstr ""

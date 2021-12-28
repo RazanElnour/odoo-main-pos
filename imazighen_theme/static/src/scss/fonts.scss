@@ -1,0 +1,17 @@
+// ------------------------------------------------------------------
+// Roboto
+// ------------------------------------------------------------------
+$roboto-font-path: '../fonts/Roboto';
+
+@mixin roboto-font($type, $weight, $style) {
+    @font-face {
+        font-family: Amiri;
+        src: url(/imazighen_theme/static/src/font/Amiri-Regular.ttf)
+    }
+
+    @font-face {
+        font-family: Amiri;
+        src: url(/imazighen_theme/static/src/font/Amiri-Regular.ttf)
+    }
+
+}
